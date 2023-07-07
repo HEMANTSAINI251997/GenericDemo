@@ -9,15 +9,15 @@ namespace Generic_Demo
     public class Generic<T>
     {
         public T data;
-        public  Generic(T data)
-        {
-            this.data = data;
-            Console.WriteLine("This is Generic data = "+ this.data);
+        //public Generic(T data)
+        //{
+        //    this.data = data;
+        //    Console.WriteLine("This is Generic data = " + this.data);
 
-        }
-        public void check(T num)
+        //}
+        public void Check(T num)
         {
-            Console.WriteLine(num);
+            Console.WriteLine(""+num);
         }
     }
     public class Demo
